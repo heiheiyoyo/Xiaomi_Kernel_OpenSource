@@ -26,7 +26,7 @@ enum throttle_type {
  * |______________________time
  *
  */
-typedef struct throttle {
+typedef struct /* throttle */ {
 	unsigned int iotime_threshold_up; /* right line of stime window */
 	unsigned int iotime_threshold_down; /* left line of stime window */
 
